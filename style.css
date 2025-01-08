@@ -65,9 +65,32 @@ nav {
 }
 
 #melon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#melon-info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 25px;
+}
+
+#info-content {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .info-box {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
 }
 
 .info-image {
