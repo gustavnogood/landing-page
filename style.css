@@ -25,7 +25,7 @@ ul {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 24px 100px;
+    padding: 24px 150px;
     
 }
 
@@ -35,7 +35,7 @@ nav {
 }
 #hero {
     display:flex;
-    padding: 40px 100px;
+    padding: 40px 150px;
 }
 
 #hero-image {
@@ -43,12 +43,25 @@ nav {
     height: 200px;
 }
 .hero-text {
+    margin-right: 50px;
 }
 
 .hero-text h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+}
+
+#hero-button {
+    color: white;
+    background: #3882F6;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 #melon-info {
