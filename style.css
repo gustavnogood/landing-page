@@ -68,6 +68,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 50px;
 }
 
 #melon-info h1 {
@@ -82,6 +83,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     gap: 25px;
+    padding-bottom: 50px;
 }
 
 .info-box {
@@ -109,11 +111,54 @@ nav {
 }
 
 #quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 100px 150px;
+}
+
+#quote #person {
+    color: black;
+    font-size: 26px;
+    font-style: normal;
+    text-align: right;
+    font-weight: 600;
+    padding-top: 10px;
 }
 
 #cta {
+    margin: 100px 150px;
+    background-color:#3882F6;
+    padding: 50px 100px;
+    border-radius: 15px;
+    color:#E5E7EB;
+}
+
+.cta-box {
+    display: flex;
+    align-items: flex-start
+}
+
+.cta-box button {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    border-color:#E5E7EB;
+    border-style: solid;
+    cursor: pointer;
+    flex: none;
+    align-self: center;
 }
 
 footer {
-  background: #1f2937;
+    background: #1f2937;
+    color:#E5E7EB;
+    padding: 25px;
+    text-align: center;
 }
+
